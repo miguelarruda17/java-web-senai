@@ -1,5 +1,6 @@
 package org.example;
 
+<<<<<<< HEAD
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -19,3 +20,14 @@ public class Main {
         }
 
     }
+=======
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Main {
+    public static void main(String[] args) {
+       SpringApplication.run(Main.class, args);
+    }
+}
+>>>>>>> 34518962b615ac572811e1a6bb53dc5434ac5a58
